@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'package:janani_homes/signin.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'signup.dart';
-import 'signup.dart';
+import 'homepage.dart';
 
 
 void main() {
@@ -50,9 +51,20 @@ class _JananiHomesState extends State<JananiHomes> {
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => SignUp(),
-              ));
+              ),
+              );
+            },
+          ),ElevatedButton(
+            child: Text("Homepage"),
+            style: ElevatedButton.styleFrom(primary: Colors.black),
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => homepage(),
+              ),
+              );
             },
           ),
+
         ]),
       ),
     );
