@@ -4,9 +4,8 @@ import 'package:email_validator/email_validator.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/gestures.dart';
 import 'signup.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:auth_buttons/auth_buttons.dart'
-    show GoogleAuthButton, AuthButtonStyle, FacebookAuthButton, AuthIconStyle;
+    show GoogleAuthButton, AuthButtonStyle, FacebookAuthButton;
 
 // ignore: camel_case_types
 class signin extends StatefulWidget {

@@ -4,9 +4,8 @@ import 'signin.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/gestures.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:auth_buttons/auth_buttons.dart'
-    show GoogleAuthButton, AuthButtonStyle, FacebookAuthButton, AuthIconStyle;
+    show GoogleAuthButton, AuthButtonStyle, FacebookAuthButton;
 
 class SignUp extends StatefulWidget {
   @override
