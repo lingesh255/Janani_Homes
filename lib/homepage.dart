@@ -49,9 +49,7 @@ class _homepageState extends State<homepage> {
                 DrawerHeader(
                   child: Text("Drawer Title"),
                 ),
-                Divider(
-                  thickness: 2,
-                ),
+
                 ListTile(
                   title: Text("Menu 1"),
                   onTap: () {},
@@ -69,7 +67,6 @@ class _homepageState extends State<homepage> {
                   onTap: () {},
                 ),
                 Divider(
-                  thickness: 2,
                 ),
                 ListTile(
                   title: Text("Menu 5"),

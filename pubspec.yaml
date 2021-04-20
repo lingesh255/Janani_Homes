@@ -37,6 +37,7 @@ dependencies:
   # Use with the CupertinoIco ns class for iOS style icons.
   cupertino_icons: ^1.0.2
   carousel_slider: ^3.0.0
+  percent_indicator: ^3.0.1
 
 dev_dependencies:
   flutter_test:
