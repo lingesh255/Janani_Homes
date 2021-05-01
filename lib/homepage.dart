@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:janani_homes/Homepages/accounts.dart';
 import 'package:janani_homes/Homepages/fundraisers.dart';
 
 
@@ -17,12 +18,7 @@ class _homepageState extends State<homepage> {
   final tabs = [
     Text("Drawer"),
     fundraisers(),
-
-
-    SafeArea(
-        child: Center(
-      child: Text("Accounts"),
-    )),
+    accounts(),
   ];
 
   void _onItemTapped(int index) {
@@ -46,44 +42,35 @@ class _homepageState extends State<homepage> {
           drawer: Drawer(
             child: ListView(
               children: [
-                DrawerHeader(
-                  child: Text("Drawer Title"),
-                ),
+                ExpansionTile(
+                  title: Text("Fundraise For"),
+                  children: [
+                    ListTile(
+                      title: Text("Education"),
+                      onTap: () {},
+                    ),
+                    ListTile(
+                      title: Text("Health"),
+                      onTap: () {},
+                    ),
 
+                  ],
+                ),
                 ListTile(
-                  title: Text("Menu 1"),
+                  title: Text("Volunteers"),
                   onTap: () {},
                 ),
                 ListTile(
-                  title: Text("Menu 2"),
+                  title: Text("Events"),
                   onTap: () {},
                 ),
                 ListTile(
-                  title: Text("Menu 3"),
-                  onTap: () {},
-                ),
-                ListTile(
-                  title: Text("Menu 4"),
+                  title: Text("Guidelines"),
                   onTap: () {},
                 ),
                 Divider(
                 ),
-                ListTile(
-                  title: Text("Menu 5"),
-                  onTap: () {},
-                ),
-                ListTile(
-                  title: Text("Menu 6"),
-                  onTap: () {},
-                ),
-                ListTile(
-                  title: Text("Menu 7"),
-                  onTap: () {},
-                ),
-                ListTile(
-                  title: Text("Menu 8"),
-                  onTap: () {},
-                ),
+
               ],
             ),
           ),

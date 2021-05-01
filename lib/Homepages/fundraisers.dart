@@ -15,6 +15,7 @@ class _fundraisersState extends State<fundraisers> {
     final double itemHeight = (size.height - kToolbarHeight - 24) / 3;
     final double itemWidth = size.width / 2;
     return Scaffold(
+
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
@@ -319,7 +320,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -353,7 +354,7 @@ class _fundraisersState extends State<fundraisers> {
                   child: InkWell(
                     child: Container(
                       decoration:
-                          BoxDecoration(borderRadius: BorderRadius.circular(5)),
+                      BoxDecoration(borderRadius: BorderRadius.circular(5)),
                       child: Column(
                         children: [
                           Stack(
@@ -374,7 +375,7 @@ class _fundraisersState extends State<fundraisers> {
                                         color: Colors.white),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           Icons.remove_red_eye_sharp,
@@ -421,7 +422,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -450,12 +451,13 @@ class _fundraisersState extends State<fundraisers> {
                     onTap: () {},
                   ),
                 ),
+
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: InkWell(
                     child: Container(
                       decoration:
-                          BoxDecoration(borderRadius: BorderRadius.circular(5)),
+                      BoxDecoration(borderRadius: BorderRadius.circular(5)),
                       child: Column(
                         children: [
                           Stack(
@@ -476,7 +478,7 @@ class _fundraisersState extends State<fundraisers> {
                                         color: Colors.white),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           Icons.remove_red_eye_sharp,
@@ -523,7 +525,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -552,12 +554,13 @@ class _fundraisersState extends State<fundraisers> {
                     onTap: () {},
                   ),
                 ),
+
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: InkWell(
                     child: Container(
                       decoration:
-                          BoxDecoration(borderRadius: BorderRadius.circular(5)),
+                      BoxDecoration(borderRadius: BorderRadius.circular(5)),
                       child: Column(
                         children: [
                           Stack(
@@ -578,7 +581,7 @@ class _fundraisersState extends State<fundraisers> {
                                         color: Colors.white),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           Icons.remove_red_eye_sharp,
@@ -625,7 +628,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -654,12 +657,13 @@ class _fundraisersState extends State<fundraisers> {
                     onTap: () {},
                   ),
                 ),
+
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: InkWell(
                     child: Container(
                       decoration:
-                          BoxDecoration(borderRadius: BorderRadius.circular(5)),
+                      BoxDecoration(borderRadius: BorderRadius.circular(5)),
                       child: Column(
                         children: [
                           Stack(
@@ -680,7 +684,7 @@ class _fundraisersState extends State<fundraisers> {
                                         color: Colors.white),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           Icons.remove_red_eye_sharp,
@@ -727,7 +731,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -756,12 +760,13 @@ class _fundraisersState extends State<fundraisers> {
                     onTap: () {},
                   ),
                 ),
+
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: InkWell(
                     child: Container(
                       decoration:
-                          BoxDecoration(borderRadius: BorderRadius.circular(5)),
+                      BoxDecoration(borderRadius: BorderRadius.circular(5)),
                       child: Column(
                         children: [
                           Stack(
@@ -782,7 +787,7 @@ class _fundraisersState extends State<fundraisers> {
                                         color: Colors.white),
                                     child: Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           Icons.remove_red_eye_sharp,
@@ -829,7 +834,7 @@ class _fundraisersState extends State<fundraisers> {
                             ),
                           ),
                           LinearPercentIndicator(
-                            width: 180,
+                            width: itemWidth*0.9,
                             lineHeight: 4,
                             progressColor: Colors.green,
                             percent: 0.75,
@@ -858,6 +863,8 @@ class _fundraisersState extends State<fundraisers> {
                     onTap: () {},
                   ),
                 ),
+
+
               ],
             ),
           ),
